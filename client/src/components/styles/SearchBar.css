@@ -1,0 +1,17 @@
+.botonbuscar {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+
+.input {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(202, 179, 179);
+    color: rgb(0, 0, 0);
+}

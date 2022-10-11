@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container2 {
+    background-image: url('../../assets/FondoCre.jpg');
+    background-size: cover; /* Te amooooooooooooooo */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-attachment: fixed;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    overflow: hidden;
+    border: 0;
+}
+
+.labels {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.recargar {
+    display: flex;
+    position: absolute;
+    left: 130px;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    top: 10px;
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+}
+
+.volver {
+    display: flex;
+    position: absolute;
+    font-size: medium;
+    font-family: 'Noto Serif', serif;
+    left: 30px;
+    font-size: 22px;
+    top: 10px;
+    border-radius: 45px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+}
+
+.createButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    border: 2px solid rgb(136, 131, 131);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 150%;
+    letter-spacing: 2px;
+    color: #000;
+    transition: 0.5s;
+    border-radius: 9px;
+    position: absolute;
+    left: 86.6vh;
+    bottom: 33px;
+}
+
+
+#createdog {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    color: rgb(223, 219, 219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.temperamentsMen {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.lifeSpanMen {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+
+.maxWeight {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.MinWeight {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.MaxHeight {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.MinHeight {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.ImageBro {
+    font-family: 'DynaPuff', cursive;
+    position: relative;
+    bottom: 5px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(238, 229, 229);
+    text-shadow: 2px 3px 4px #000000;
+    margin-top: 20px;
+}
+
+.temperamentsItems {
+    color: white;
+}

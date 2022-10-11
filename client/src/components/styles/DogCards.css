@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+
+.card-container {
+    backdrop-filter: blur(6px);
+    width: 300px;
+    overflow: hidden;
+    transition: 0.3s;
+    animation: ease-in-out;
+    box-shadow: 0px 0px 15px 0px;
+    margin-bottom: 20%;
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.name {
+    font-size: large;
+}
+
+.image-container img {
+    overflow: hidden;
+    height: 200px;
+}
+
+
+.btn {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}

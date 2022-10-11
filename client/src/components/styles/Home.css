@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.MasterContainer {
+    background-image: url('../../assets/FondoPa.jpg');
+    background-size: cover; /* Te amooooooooooooooo */
+    background-repeat: no-repeat;
+    height: 135vh;
+}
+
+
+.MasterContainer .ContainerBotones {
+    display: flex;
+}
+
+#inicio {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+#create {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    position: absolute;
+    left: 5.5%;
+    top: 1%;
+}
+
+#recargar {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
+
+.Select {
+    position: absolute;
+    top: 7%;
+    left: 30%;
+}
+
+#tempOption {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+#filterSelect {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+#peso {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+#order {
+    border-radius: 50px;
+    border: 4.5px solid rgb(0, 0, 0);
+    background-color: rgb(131, 128, 128);
+    color: rgb(255, 255, 255);
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
+.paginado {
+    position: absolute;
+    top: 13%;
+    left: 34%;
+}
+
+.searchbar {
+    position: absolute;
+    left: 44%;
+    top: 1.4%
+}
+
+.cards {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    position: relative;
+    margin-top: 9%;
+}
